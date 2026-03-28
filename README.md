@@ -17,6 +17,7 @@ This project is a starter Android app for a local chatbot named **Jarvis**.
 This scaffold wires the app flow and XLine configuration behavior, but the actual on-device LLM runtime binding (GGUF/ONNX/TFLite/ExecuTorch/etc.) must still be integrated for true token-by-token model execution. The placeholder `XLineEngine` demonstrates how navigator weights are loaded for inference-only sessions.
 
 ## Build locally
+Use **JDK 17** and **Gradle 8.7+**:
 ```bash
 gradle :app:assembleDebug
 ```
